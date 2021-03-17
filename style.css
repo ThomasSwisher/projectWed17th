@@ -1,0 +1,41 @@
+.pole {
+    background-color: black;
+    height: 10rem;
+    width: 5rem;
+    margin: auto;
+}
+
+.box {
+    background-color: black;
+    height: 35rem;
+    width: 15rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.light {
+    height: 10rem;
+    width: 10rem;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.red {
+background-color: red;
+}
+
+.yellow {
+background-color: yellow;
+}
+
+.green {
+background-color: green;
+}
+
+.red:hover {
+    background-color: red;
+    box-shadow: 0 0 5rem 1m pink;
+    cursor: pointer;
+}
